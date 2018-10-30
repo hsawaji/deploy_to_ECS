@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/', methods=['GET'])
 def index():
-    return 'deploy ECS rolling test'
+    return 'deploy ECS rolling test aaaa'
 
 if __name__ == '__main__':
     app.debug = True
